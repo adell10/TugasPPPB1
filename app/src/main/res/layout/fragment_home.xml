@@ -37,24 +37,24 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnMateriOOP"
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="MATERI OOP"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
-            app:cornerRadius="50dp"
+            app:cornerRadius="10dp"
             app:backgroundTint="#7758F6"
             android:layout_marginBottom="16dp"
             android:fontFamily="sans-serif-medium" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnMateriAndroid"
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="MATERI ANDROID"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
-            app:cornerRadius="50dp"
+            app:cornerRadius="10dp"
             app:backgroundTint="#7758F6"
             android:fontFamily="sans-serif-medium" />
 
