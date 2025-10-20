@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F4FF">
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvHomeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Page"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:gravity="start"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="32dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMateriOOP"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="MATERI OOP"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            app:cornerRadius="50dp"
+            app:backgroundTint="#7758F6"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMateriAndroid"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="MATERI ANDROID"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            app:cornerRadius="50dp"
+            app:backgroundTint="#7758F6"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+
+</RelativeLayout>
